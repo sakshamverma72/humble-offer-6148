@@ -1,11 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
     background-color: #EBF5F3;
+    font-family:
+        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 nav {
@@ -29,7 +31,7 @@ nav {
     /* border: 1px solid red; */
     margin: auto;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
@@ -61,6 +63,22 @@ nav {
     width: 100%;
 }
 
+#nav1img>img:hover {
+    cursor: pointer;
+}
+
+#nav1child>div:hover {
+    cursor: pointer;
+    background-color: #2b3857;
+
+}
+
+#nav1child>div {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
 #nav2 {
     width: 30%;
     display: flex;
@@ -72,22 +90,45 @@ nav {
 #nav2>div {
     display: flex;
     text-align: center;
-} 
+}
 
 #nav2>div>button {
     color: white;
     font-size: 16px;
     padding: 10px 20px 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #08CF65;
     border: none;
-} 
+    font-weight: 600;
+}
+
+#nav2>div:nth-child(1):hover,
+#nav2>div:nth-child(2):hover,
+#nav2>div:nth-child(3):hover {
+    cursor: pointer;
+    background-color: #2b3857;
+
+}
+
+#nav2>div:nth-child(1),
+#nav2>div:nth-child(2),
+#nav2>div:nth-child(3) {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+#nav2>div>button:hover {
+    background-color: #04bc70;
+    cursor: pointer;
+}
+
+
 
 
 
 
 #first-part {
-    
+
     background-color: #181F38;
     height: 684px;
     background-size: cover;
@@ -117,19 +158,19 @@ nav {
     font-size: 20px;
     font-family:
         TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 400; 
+    font-weight: 400;
     color: white;
-    
+
 }
 
- #first-part input {
-    
+#first-part input {
+
     font-size: 18px;
     width: 300px;
     padding: 20px 28px 20px 28px;
     border-radius: 10px;
     border: none;
-} 
+}
 
 #first-part>div>div>button {
     margin-top: 40px;
@@ -144,6 +185,12 @@ nav {
     font-family:
         TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+#first-part>div>div:nth-child(2)>button:hover {
+    background-color: #04bc70;
+    cursor: pointer;
+}
+
 
 #first-part>div>div:nth-child(3) {
     display: flex;
@@ -162,18 +209,28 @@ nav {
     color: #08CF65;
 }
 
+#first-part>div>div:nth-child(3)>button:hover {
+    color: #8cf09b;
+    cursor: pointer;
+}
 
-#second-part>div:nth-child(1){
+
+
+
+
+
+#second-part>div:nth-child(1) {
     /* border: 1px solid red; */
     width: 67%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 60px;
     margin-top: 48px;
-    
+
 }
-#second-part>div:nth-child(2){
+
+#second-part>div:nth-child(2) {
     width: 64%;
     /* border: 1px solid red; */
     letter-spacing: 1.5px;
@@ -186,27 +243,678 @@ nav {
     font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-#third-part>div>div{
+#second-part>div>div>img {
+    display: block;
+    margin: auto;
+}
+
+#second-part>div>div {
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+#thirdpart-1 {
     width: 73%;
     margin: auto;
     text-align: center;
+    margin-bottom: 70px;
 }
 
-#third-part>div>div>div{
+#thirdpart-1>div {
     width: 68%;
     margin: auto;
 }
-#third-part>div>div>div:nth-child(1){
+
+#thirdpart-1>div:nth-child(1) {
     font-size: 52px;
     line-height: 60px;
     font-weight: 600;
     color: #181f38;
     font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-#third-part>div>div>div:nth-child(2){
+
+#thirdpart-1>div:nth-child(2) {
     font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #2b3857;
     font-size: 20px;
     line-height: 32px;
     margin-top: 20px;
+}
+
+#thirdpart-2 {
+    margin: auto;
+    width: 75%;
+    height: 558px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    /* border: 1px solid red; */
+}
+
+#thirdpart-2>div {
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 16px;
+
+
+}
+
+#thirdpart-2>div>div>img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#thirdpart-2>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#thirdpart-2>div>div {
+    /* border: 1px solid black; */
+}
+
+#thirdpart-2>div>div>div>h1 {
+    /* margin-bottom: 20px; */
+}
+
+#thirdpart-2>div>div>p {
+    color: rgb(107, 105, 105);
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 16px;
+    /* margin-bottom: 30px; */
+}
+
+#thirdpart-2>div>div>button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: #0a615a;
+}
+
+#thirdpart-2>div:hover {
+    background-color: #0a615a;
+    color: white;
+    cursor: pointer;
+}
+
+#thirdpart-2>div:hover>div>p {
+    color: white;
+}
+
+#thirdpart-2>div:hover>div>button {
+    color: #08cf65;
+}
+
+#thirdpart-3 {
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#thirdpart-3>button {
+    font-size: 20px;
+    color: #0a615a;
+    border: none;
+    background-color: transparent;
+}
+
+#thirdpart-3>button:hover {
+    color: #007860;
+    cursor: pointer;
+
+}
+
+#thirdpart-3>button:hover>i {
+    margin-left: 10px;
+}
+
+
+#thirdpart-4>button {
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 72px;
+    margin-top: 120px;
+    font-size: 24px;
+    background-color: #08cf65;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 124px;
+}
+
+#thirdpart-4>button:hover {
+    background-color: #05bf6e;
+    cursor: pointer;
+}
+
+
+.custom-shape-divider-bottom-1668140941 {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1668140941 svg {
+    /* position: relative; */
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 30px;
+}
+
+.custom-shape-divider-bottom-1668140941 .shape-fill {
+    fill: #181f38;
+}
+
+
+
+
+
+#fourth-part {
+    background-color: #181f38;
+}
+
+#fourthpart-1 {
+    width: 74%;
+    /* border: 1px solid #555; */
+    height: 836px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fourthpart-1>div:nth-child(1) {
+    width: 30%;
+}
+
+#fourthpart-img {
+    width: 60%;
+    /* border: 1px solid rgb(242, 237, 237); */
+}
+
+#fourthpart-img>img {
+    width: 100%;
+}
+
+
+#fourthpart-1>div>div {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fourthpart-1>div>div>p:nth-child(1) {
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#fourthpart-1>div>div>h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+#fourthpart-1>div>div>p:nth-child(3) {
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#fourthpart-1>div>div>button {
+    font-size: 20px;
+    color: #08cf65;
+    border: none;
+    background-color: transparent;
+    text-align: start;
+}
+
+#fourthpart-1>div>div>button:hover {
+    color: #8cf09b;
+    cursor: pointer;
+}
+
+#fourthpart-1>div>div>button:hover>i {
+    margin-left: 10px;
+
+}
+
+#secondcurve {
+    height: 35px;
+    background-color: rgb(131, 40, 40);
+}
+
+
+
+
+#fifth-part {
+    padding-top: 91px;
+    height: 1300px;
+    /* border: 1px solid red; */
+    background-color: #0c3245;
+}
+
+#fifthpart-top {
+    height: 1045px;
+    /* border: 1px solid red; */
+    width: 74%;
+    margin: auto;
+
+}
+
+#fifthparttop-nav {
+    width: 67%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-bottom: 48px;
+}
+
+#fifthparttop-nav>div {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#fifthparttop-nav>div>h1 {
+    color: white;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+#fifthparttop-nav>div {
+    margin-top: 20px;
+}
+
+#fifthparttop-nav>div>p {
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+#fifthparttop-middle {
+    width: 49%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 58px;
+    /* display: flex; */
+
+    justify-content: space-between;
+}
+
+#fifthparttop-middle>div {
+    /* border: 1px solid #555; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#underline {
+
+    border: 0.5px solid #8cf09b84;
+    margin-top: -2px;
+}
+
+#fifthparttop-middle>div>button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #c1c9d8;
+    background-color: transparent;
+    border: none;
+    height: 48px;
+}
+
+#fifthparttop-middle>div>button:nth-child(1) {
+    border-bottom: 4px solid #05bf6e;
+    color: white;
+}
+
+#fifthparttop-bottom {
+
+    height: 607px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fifthparttop-bottom>div:nth-child(1) {
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+#fifthparttop-bottom>div:nth-child(1) {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#fifthparttop-bottom>div:nth-child(1)>div>h1 {
+    color: white;
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+#fifthparttop-bottom>div:nth-child(1)>div>p {
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#fifthparttop-bottom>div:nth-child(1)>div>button {
+    font-size: 20px;
+    color: #08cf65;
+    border: none;
+    background-color: transparent;
+    text-align: start;
+}
+
+#fifthparttop-bottom>div:nth-child(1)>div>button:hover {
+    color: #8cf09b;
+    cursor: pointer;
+}
+
+#fifthparttop-bottom>div:nth-child(1)>div>button:hover>i {
+    margin-left: 10px;
+
+}
+
+
+#fifthparttop-bottom>div:nth-child(2) {
+    width: 60%;
+}
+
+#fifthparttop-bottom>div:nth-child(2)>img {
+    width: 100%;
+}
+
+#fifthparttop-bottom>div:nth-child(2)>img {
+    width: 100%;
+}
+
+
+
+#fifthpart-bottom {
+    height: 196px;
+    width: 68%;
+    margin: auto;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+
+#fifthpart-bottom>button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    height: 72px;
+    width: 220px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc000;
+}
+
+#fifthpart-bottom>button:hover {
+    background-color: #ffa200;
+    cursor: pointer;
+}
+
+#thirdcurve {
+    height: 35px;
+    background-color: red;
+
+}
+
+
+
+
+
+
+#sixth-part {
+    margin-top: 32px;
+    padding-bottom: 124px;
+    background-color: white;
+}
+
+#sixthpart-top {
+    height: 723px;
+    width: 74%;
+    border: 1px solid #555;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sixthpart-top>div:nth-child(1) {
+    width: 30%;
+    border: 2px solid red;
+    /* border: 1px solid black; */
+}
+
+#sixthpart-top>div:nth-child(1) {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+#sixthpart-top>div:nth-child(1)>div:nth-child(1)>p{
+    color: #657694;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+#sixthpart-top>div:nth-child(1)>div:nth-child(3)>p{
+    color: #2b3857;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+#sixthpart-top>div:nth-child(1)>div>h1{
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+
+#sixthpart-top>div:nth-child(1)>div:nth-child(4)>button{
+    font-size: 20px;
+    color: #2b3857;
+    border: none;
+    background-color: transparent;
+    text-align: start;
+    font-weight: 500;
+}
+#sixthpart-top>div:nth-child(1)>div:nth-child(4)>button:hover{
+    color: #0a615a;
+    cursor: pointer;
+}
+
+#sixthpart-top>div:nth-child(1)>div:nth-child(4)>button:hover>i{
+    margin-left: 10px;
+}
+
+#sixthpart-top>div:nth-child(2){
+    width: 60%;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+}
+#sixthpart-top>div:nth-child(2)>img{
+    width: 100%;
+}
+
+
+
+#sixthpart-bottom{
+    width: 74%;
+    margin: auto;
+}
+#sixthpart-bottom >button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    height: 72px;
+    width: 220px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #08cf65;
+}
+#sixthpart-bottom >button:hover{
+    background-color: #04ba71;
+    cursor: pointer;
+}
+
+#fourthcurve{
+    height: 35px;
+    background-color: red;
+}
+
+
+
+
+
+#seventh-part{
+    background-color: #ebf5f3;
+    padding-top: 95px;
+    padding-bottom: 123px;
+}
+
+#seventhpart-top{
+    width: 74%;
+    height: 792px;
+    margin: auto;
+    border: 1px solid red;
+    margin-bottom: 124px;
+}
+#seventhparttop-1{
+    width: 68%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid blue;
+    margin-bottom: 60px;
+}
+#seventhparttop-1>div:nth-child(1){
+    margin-bottom: 20px;
+}
+#seventhparttop-1>div>h1{
+    font-size: 52px;
+    line-height: 64px;
+    color: #181f38;
+}
+#seventhparttop-1>div>p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #2b3857;
+}
+
+#seventhparttop-2{
+    /* width: 68%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-bottom: 50px;
+    /* background-color: white; */
+}
+
+#seventhparttop-2>div{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+}
+#seventhparttop-2>div>p{
+    color: #0c3245;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+#seventhparttop-2>div:hover{
+    background-color: #0c3245;
+    cursor: pointer;
+}
+#seventhparttop-2>div:hover>p{
+    color: white;
+}
+
+#seventhparttop-3>button{
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    margin: auto;
+    color: #0c3245;
+    font-weight: 500;
+    border: none;
+}
+#seventhparttop-3>button:hover{
+    color: #0a615a;
+    cursor: pointer;
+}
+#seventhparttop-3>button:hover>i{
+    margin-left: 10px;
+}
+
+
+#seventpart-bottom>button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    height: 72px;
+    width: 220px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc000;
+}
+#seventpart-bottom>button:hover{
+    background-color: #ffa200;
+    cursor: pointer;
+}
+
+#fourthcurve{
+    height: 35px;
+    color: red;
 }
