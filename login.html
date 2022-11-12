@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+
+<body>
+    <div class="login-maindiv">
+        <div>
+
+            <div class="login">
+                <div class="login-top">
+
+                    <img src="/Images/YOur (1) - Copy.png" alt="">
+                    <input type="email" class="input" placeholder="Email or corporate ID">
+                    <button class="button">Next</button>
+                    <p>Forget password ?</p>
+                </div>
+                <div class="login-bottom">
+                    <div><p>or login with</p></div>
+                    <div>
+                        <button>
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpY29uPSIiIHdyaWtlLWljb24tYnJhbmQtZ29vZ2xlPSIiIGNsYXNzPSJfbmdjb250ZW50LWN0Yi00IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHdpZHRoPSIxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiByb2xlPSJwcmVzZW50YXRpb24iPjxwYXRoIGQ9Ik0xNS42OCA4LjE4MkMxNS42OCA3LjYxNSAxNS42MyA3LjA2OSAxNS41MzUgNi41NDVIOFY5LjY0SDEyLjMwNUMxMi4xMiAxMC42NCAxMS41NTUgMTEuNDg3IDEwLjcwOSAxMi4wNTVWMTQuMDYySDEzLjI5NEMxNC44MDYgMTIuNjY5IDE1LjY3OSAxMC42MTggMTUuNjc5IDguMTgySDE1LjY4WiIgZmlsbD0iIzQyODVGNCIvPjxwYXRoIGQ9Ik04IDE2QzEwLjE2IDE2IDExLjk3IDE1LjI4NCAxMy4yOTUgMTQuMDYyTDEwLjcwOSAxMi4wNTVDOS45OTIgMTIuNTM1IDkuMDc1IDEyLjgxOCA3Ljk5OSAxMi44MThDNS45MTUgMTIuODE4IDQuMTUyIDExLjQxMSAzLjUyMyA5LjUySDAuODVWMTEuNTkzQzIuMTY4IDE0LjIwNyA0Ljg3NCAxNiA4IDE2WiIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik0zLjUyNCA5LjUyQzMuMzY0IDkuMDQgMy4yNzQgOC41MjcgMy4yNzQgOEMzLjI3NCA3LjQ3MyAzLjM2NCA2Ljk2IDMuNTI0IDYuNDhWNC40MDdIMC44NUMwLjMxIDUuNDg3IDAgNi43MSAwIDhDMCA5LjI5IDAuMzEgMTAuNTEzIDAuODUgMTEuNTkzTDMuNTI1IDkuNTJIMy41MjRaIiBmaWxsPSIjRkJCQzA1Ii8+PHBhdGggZD0iTTggMy4xODJDOS4xNzUgMy4xODIgMTAuMjMgMy41ODUgMTEuMDU4IDQuMzc4TDEzLjM1MyAyLjA4NEMxMS45NjcgMC43OTQgMTAuMTU2IDAgOCAwQzQuODczIDAgMi4xNjcgMS43OTMgMC44NSA0LjQwN0wzLjUyNSA2LjQ4QzQuMTU0IDQuNTkgNS45MTYgMy4xODIgOCAzLjE4MloiIGZpbGw9IiNFQTQzMzUiLz48L3N2Zz4=" alt="">
+                            <p>Google</p>
+                        </button>
+                        <button>
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpY29uPSIiIHdyaWtlLWljb24tYnJhbmQtYXBwbGU9IiIgY2xhc3M9Il9uZ2NvbnRlbnQtY3RiLTQiIGZpbGw9ImN1cnJlbnRDb2xvciIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgcm9sZT0icHJlc2VudGF0aW9uIj48cGF0aCBkPSJNOC4wODg1OSA0LjAyMjUyQzcuNTM3MDEgNC4wMjI1MiA2LjY4MzE5IDMuMzkzNzcgNS43ODQwNCAzLjQxNjVDNC41OTc3NiAzLjQzMTY1IDMuNTA5NzIgNC4xMDU4NSAyLjg5NzY5IDUuMTczOThDMS42NjYwOCA3LjMxNzgxIDIuNTgwMzQgMTAuNDg0MyAzLjc4MTczIDEyLjIyNjdDNC4zNzEwOSAxMy4wNzUxIDUuMDY2MjMgMTQuMDI5NiA1Ljk4ODA1IDEzLjk5OTNDNi44NzIwOSAxMy45NjE0IDcuMjA0NTUgMTMuNDIzNiA4LjI3NzQ4IDEzLjQyMzZDOS4zNDI4NiAxMy40MjM2IDkuNjQ1MSAxMy45OTkzIDEwLjU4MiAxMy45NzY2QzExLjUzNDEgMTMuOTYxNCAxMi4xMzg1IDEzLjExMyAxMi43MjAzIDEyLjI1N0MxMy4zOTI4IDExLjI3MjIgMTMuNjcyNCAxMC4zMTc3IDEzLjY4NzUgMTAuMjY0NkMxMy42NjQ4IDEwLjI1NzEgMTEuODM2MyA5LjU1MjU1IDExLjgxMzYgNy40MzE0NEMxMS43OTg1IDUuNjU4ODEgMTMuMjU2OCA0LjgxMDM2IDEzLjMyNDggNC43NzI0OUMxMi40OTM3IDMuNTUyODUgMTEuMjE2NyAzLjQxNjUgMTAuNzcwOSAzLjM4NjE5QzkuNjA3MzIgMy4yOTUyOSA4LjYzMjYxIDQuMDIyNTIgOC4wODg1OSA0LjAyMjUyWk0xMC4wNTMxIDIuMjM0NzRDMTAuNTQ0MiAxLjY0Mzg2IDEwLjg2OTIgMC44MTgxNDEgMTAuNzc4NSAwQzEwLjA3NTggMC4wMzAzMDE1IDkuMjI5NTIgMC40Njk2NzMgOC43MjMyOCAxLjA2MDU1QzguMjY5OTMgMS41ODMyNSA3Ljg3NzAyIDIuNDI0MTIgNy45ODI4IDMuMjI3MTFDOC43NjEwNiAzLjI4NzcxIDkuNTYxOTggMi44MjU2MiAxMC4wNTMxIDIuMjM0NzRaIi8+PC9zdmc+" alt="">
+                            <p>Sign in with Apple</p>
+                        </button>
+                        <button>
+                            <img src="data:image/svg+xml;base64,PHN2ZyBpY29uPSIiIHdyaWtlLWljb24tYnJhbmQtbXNvZmZpY2U9IiIgY2xhc3M9Il9uZ2NvbnRlbnQtY3RiLTQiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9InByZXNlbnRhdGlvbiI+PHBhdGggZD0iTTkgMS45VjEzLjlDNy43IDEzLjYgNS43IDEyLjkgMyAxMS45VjRMMCAzLjJWMTIuOEMwIDEyLjkgMC4xIDEyLjkgMC4xIDEyLjlDMi45IDEzLjkgNS43IDE1IDguNSAxNkM4LjYgMTYgOC43IDE2LjEgOC44IDE2QzEwLjMgMTUuNiAxMi4zIDE1LjIgMTMuOSAxNC44SDE0VjEuNEMxMy42IDEuMyAxMi43IDEuMSAxMi4yIDFDMTEuMSAwLjcgMTAgMC40IDguOSAwSDguNkM1LjggMSAzLjEgMiAwLjMgM0MwLjIgMyAwLjIgMyAwLjEgMy4xQzIgMi45IDUgMi41IDkgMS45WiIgZmlsbD0iI0RDM0UxNSIvPjwvc3ZnPg==" alt="">
+                            <p>Office</p>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="after-login">
+            <span>Don't have a Your Collaborator account?</span>
+            <button>Get started now</button>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <button>Have multiple accounts? Log in here</button>
+        <button>Log in with One-Time Password</button>
+        <button>Get in Touch</button>
+        <button>Your Collaborator Help Center</button>
+        <p>Copyright ©2006-2022 Wrike, Inc. All rights reserved. Patented.</p>
+    </div>
+</body>
+
+</html>
