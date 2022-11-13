@@ -6,8 +6,6 @@
 
 body {
     background-color: #EBF5F3;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 nav {
@@ -18,8 +16,6 @@ nav {
     display: flex;
     align-items: center;
     color: white;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #nav {
@@ -148,8 +144,6 @@ nav {
 #first-part>div>div>p:nth-child(1) {
     font-size: 56px;
     padding-top: 120px;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold;
     color: white
 }
@@ -157,15 +151,11 @@ nav {
 #first-part>div>div>p:nth-child(2) {
     margin-top: 20px;
     font-size: 20px;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
     color: white;
-
 }
 
 #first-part input {
-
     font-size: 18px;
     width: 300px;
     padding: 20px 28px 20px 28px;
@@ -188,8 +178,6 @@ nav {
     color: white;
     border: none;
     font-weight: 600;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #first-part>div>div:nth-child(2)>button:hover {
@@ -205,8 +193,6 @@ nav {
 
 #first-part>div>div:nth-child(3)>button {
     width: 300px;
-    font-family:
-        TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
     background-color: transparent;
     border: none;
@@ -246,7 +232,6 @@ nav {
     font-size: 12px;
     color: #657694;
     margin-bottom: 48px;
-    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #second-part>div>div>img {
@@ -254,9 +239,7 @@ nav {
     margin: auto;
 }
 
-#second-part>div>div {
-    /* border: 1px solid red; */
-}
+
 
 
 
@@ -281,11 +264,9 @@ nav {
     line-height: 60px;
     font-weight: 600;
     color: #181f38;
-    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #thirdpart-1>div:nth-child(2) {
-    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #2b3857;
     font-size: 20px;
     line-height: 32px;
@@ -325,13 +306,7 @@ nav {
     justify-content: space-between;
 }
 
-#thirdpart-2>div>div {
-    /* border: 1px solid black; */
-}
 
-#thirdpart-2>div>div>div>h1 {
-    /* margin-bottom: 20px; */
-}
 
 #thirdpart-2>div>div>p {
     color: rgb(107, 105, 105);
