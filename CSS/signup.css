@@ -1,0 +1,229 @@
+.nav {
+    background-color: white;
+    color: #181f38;
+}
+*{
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.nav1child>#why:hover {
+    background-color: #ebf5f3;
+    color: #0a615a;
+}
+
+#nav2>#Contactsales:hover {
+    background-color: #ebf5f3;
+    color: #0a615a;
+}
+
+
+
+
+.first-part {
+    /* border: 2px solid red; */
+    height: 737px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-image: url(https://web-static.wrike.com/cdn-cgi/image/width=1920,format=auto,quality=80/tp/storage/uploads/42ba92ef-9fe6-46b9-b47d-d74a9a489949/rebrand-hero-illustration-wrike-vs-smartsheet.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstpart-1>div>h1 {
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 20px;
+    color: #181f38;
+}
+
+.firstpart-1>div>p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 38px;
+    color: #2b3857;
+}
+
+
+.firstpart-2>input {
+    width: 328px;
+    height: 56px;
+    font-size: 18px;
+    line-height: normal;
+    border-radius: 10px;
+    border: 1px solid #c1c9d8;
+    padding-left: 10px;
+
+}
+
+.firstpart-2>input:focus {
+    outline: none;
+    box-shadow: rgba(188, 89, 19, 0.4) 0px 0px 0px 5px, rgba(188, 89, 19, 0.4) 0px 0px 0px 2px, rgba(188, 89, 19, 0.4) 0px 1px 0px inset;
+}
+
+.firstpart-2>button{
+    width: 200px;
+    height: 60px;
+    background-color: #06c66a;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.firstpart-2>button:hover{
+    cursor: pointer;
+    background-color: #04ba71;
+}
+
+.firstpart-3{
+    color: #657694;
+    margin-top: 102px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+#second-part{
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+.second-part{
+    background-color: #0c3245;
+    
+    border: 1px solid #555;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.secondpart-1{
+    height: 492px;
+    width: 76%;
+    margin: auto;
+    /* border: 1px solid #666; */
+    display: flex;
+    margin-top: 60px;
+}
+.secondpart1-1{
+    width: 66%;
+    /* border: 1px solid #555; */
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+}
+.secondpart1-2{
+    width: 34%;
+}
+.secondpart1_2-1{
+    display: flex;
+    justify-content: space-between;
+}
+.invisible{
+    opacity: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #c1c9d8;
+}
+li>p:hover{
+    display: inline;
+    cursor: pointer;
+    color: #51e8d4;
+    border-bottom: 1px solid #51e8d4;
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+.secondpart-2{
+    padding-top: 33px;
+    width: 76%;
+    border-top: 0.25px solid #3f545d;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.secondpart-2>div{
+    display: flex;
+}
+.inner-top{
+    display: flex;
+}
+.inner-top>div>img{
+    height: 40px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+.inner-middle{
+    /* border: 1px solid #555; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-middle>div{
+    margin-right: 30px;
+    font-size: 18px;
+    color: white;
+    
+}
+.inner-middle>div:hover{
+    color: #51e8d4;
+    cursor: pointer;
+}
+
+.inner-last{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inner-last>div{
+    display: flex;
+    color: #c1c9d8;
+    justify-content: flex-end;
+    /* border: 1px solid #555; */
+}
+.inner-last>div>p{
+    margin-left: 10px;
+}
+.lastunderline{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.lastunderline:hover{
+    color: #c1c9d8;
+    border: none;
+    cursor: pointer;
+}
+
+.dasshed{
+    display: inline;
+    border-bottom: 1px dashed #c1c9d8;
+}
+.dasshed:hover{
+    border: none;
+}
