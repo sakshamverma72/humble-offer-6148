@@ -2,7 +2,10 @@
     background-color: white;
     color: #181f38;
 }
+*{
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+}
 .nav1child>#why:hover {
     background-color: #ebf5f3;
     color: #0a615a;

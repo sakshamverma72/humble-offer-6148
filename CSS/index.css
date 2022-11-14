@@ -1,11 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"";
+    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
     background-color: #EBF5F3;
+    
 }
 
 nav {
@@ -89,7 +90,7 @@ nav {
     text-align: center;
 }
 
-#nav2>div>button {
+#nav2>div:nth-child(4)>button {
     color: white;
     font-size: 16px;
     padding: 10px 20px 10px 20px;
@@ -98,25 +99,21 @@ nav {
     border: none;
     font-weight: 600;
 }
-
-#nav2>div:nth-child(1):hover,
-#nav2>div:nth-child(2):hover,
-#nav2>div:nth-child(3):hover {
+#nav2>div:nth-child(4)>button:hover {
+    background-color: #04bc70;
     cursor: pointer;
-    background-color: #2b3857;
-
 }
-
 #nav2>div:nth-child(1),
 #nav2>div:nth-child(2),
 #nav2>div:nth-child(3) {
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
 }
-
-#nav2>div>button:hover {
-    background-color: #04bc70;
+#nav2>div:nth-child(1):hover,
+#nav2>div:nth-child(2):hover,
+#nav2>div:nth-child(3):hover {
     cursor: pointer;
+    background-color: #2b3857;
 }
 
 
@@ -134,13 +131,10 @@ nav {
     background-image: url("https://web-static.wrike.com/cdn-cgi/image/width=1920,format=auto,quality=80/tp/storage/uploads/a6689dc7-598d-42e0-9856-339b302c27d5/rebrand-hero-illustration-homepage-screenshots-dark-desktop-2x.png");
 
 }
-
-
 #first-part>div {
     width: 75%;
     margin: auto;
 }
-
 #first-part>div>div>p:nth-child(1) {
     font-size: 56px;
     padding-top: 120px;
@@ -445,7 +439,6 @@ nav {
 }
 
 #fourthpart-1>div>div>p:nth-child(1) {
-    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 12px;
     letter-spacing: 1.5px;
     color: white;
@@ -458,7 +451,6 @@ nav {
     font-size: 35px;
     line-height: 48px;
     margin-bottom: 20px;
-    font-family: TT_Norms_Pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Roboto, Oxygen-Sans, "Fira Sans", "Droid Sans", Ubuntu, Cantarell, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
 
