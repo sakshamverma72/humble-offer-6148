@@ -3,22 +3,23 @@ document.querySelector(".login-top>img").addEventListener("click", function () {
 });
 
 
-let Name = document.querySelector("input [type=text]").value
-let password1 = document.querySelector("#pass1").value
-let password2 = document.querySelector("#pass2").value
-let action = document.querySelector("form").action
+
 document.querySelector("#details").addEventListener("submit", myfunction)
 
 
 function myfunction(event) {
     event.preventDefault();
+    let Name = document.querySelector("#detailname").value
+    let password1 = document.querySelector("#pass1").value
+    let password2 = document.querySelector("#pass2").value
+    
+    
     if (password1 === password2) {
-        let details = {
-            Name,
-            password1,
-        };
-        localStorage.setItem("details", JSON.stringify(details));
-        action = "./login.html"
+        let password = password1
+        let name = Name;
+        localStorage.setItem("name", name)
+        localStorage.setItem("details", password);
+        window.location.href = "./login.html"
     }
 
     else {

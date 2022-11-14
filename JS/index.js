@@ -18,7 +18,17 @@ function main() {
         window.location.href = "./signup_2.html";
     }
 
+}
 
-
-
+function firstpartdiv(){
+    window.location.href="https://www.wrike.com/teams/professional-services-management/"
+}
+function secondpartdiv(){
+    window.location.href="https://www.wrike.com/teams/professional-services-management/"
+}
+function thirdpartdiv(){
+    window.location.href="https://www.wrike.com/teams/professional-services-management/"
+}
+function fourthpartdiv(){
+    window.location.href="https://www.wrike.com/teams/professional-services-management/"
 }
