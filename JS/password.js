@@ -10,7 +10,7 @@ function passwordcheckdata() {
     console.log(passwordcheck);
     let password = document.querySelector("#passwordcheck").value;
     if (passwordcheck === password) {
-        
+        alert("Logged in successfully");
         window.location.href = "./index.html"
     }
     else {
